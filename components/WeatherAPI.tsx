@@ -111,7 +111,7 @@ const WeatherApp: React.FC = () => {
         <Toolbar>
           <NightsStayIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
-            Weather App
+            Jay-R's Weather App
           </Typography>
         </Toolbar>
       </AppBar>
