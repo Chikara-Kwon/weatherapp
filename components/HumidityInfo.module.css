@@ -1,0 +1,43 @@
+/* styles/WeatherDetails.module.css */
+
+.weatherDetailsContainer {
+  display: flex;
+  justify-content: space-between; /* Align items on the left and right */
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the content */
+  margin-top: 20px;
+}
+
+.windContainer,
+.humidityContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  margin-right: 10px; /* Adjust the margin as needed */
+  opacity: 0.4;
+}
+
+.icon {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.windDetails,
+.humidityDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.windSpeed,
+.humidityPercentage {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.windTitle,
+.humidityTitle {
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #888; /* Adjust the color as needed */
+}
