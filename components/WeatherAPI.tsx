@@ -103,6 +103,8 @@ const WeatherApp: React.FC = () => {
 
   const imageUrl = `${baseUrl}`;
 
+  console.log("Version 2");
+
   return (
     <div>
       <AppBar position="relative">
